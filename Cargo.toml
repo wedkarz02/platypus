@@ -12,3 +12,4 @@ categories = ["database", "visualization"]
 exclude = ["/.github/*"]
 
 [dependencies]
+eframe = "0.33.2"
