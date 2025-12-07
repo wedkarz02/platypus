@@ -1,0 +1,14 @@
+[package]
+name = "platypus"
+version = "0.1.0"
+edition = "2024"
+description = "PostgreSQL database GUI explorer."
+authors = ["wedkarz02"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/wedkarz02/platypus"
+keywords = ["gui", "postgresql"]
+categories = ["database", "visualization"]
+exclude = ["/.github/*"]
+
+[dependencies]
