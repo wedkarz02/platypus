@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Paweł Rybak
+
 use eframe::egui;
 
 struct Platypus {
@@ -15,9 +18,9 @@ impl Default for Platypus {
 impl eframe::App for Platypus {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         egui::CentralPanel::default().show(ctx, |ui| {
-            ui.centered_and_justified(|ui| {
-                ui.heading(&self.msg);
-            })
+            // ui.centered_and_justified(|ui| {
+            ui.heading(&self.msg);
+            // })
         });
     }
 }
